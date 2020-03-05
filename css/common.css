@@ -1,0 +1,63 @@
+/*css初始化*/
+html,body,ul,li,p,h1,h2,h3,form,img {
+	margin:0;
+	padding:0；
+}
+img {
+	display:block；
+}
+ul {
+	list-style:none;
+}
+input {
+	padding-top:0;
+	padding-bottom:0;
+	border:0;
+	padding:0;
+	outline: none;
+	box-sizing:border-box;
+}
+textarea {
+	outline:none;
+	resize:none;
+}
+a {
+	text-decoration:none;
+	color: #fff;
+}
+div {
+	box-sizing:border-box;
+}
+body {
+	background-color: #fff; 
+	color: #000;
+}
+h1 {
+	font-size: 60px;
+}
+h2 {
+	font-size: 40px;
+}
+h3 {
+	font-size: 20px;
+}
+p {
+	font-size: 18px;
+	color: #8D8D8D;
+}
+h1,h2,h3 {
+	font-weight: normal;
+}
+.fl {
+	float: left;
+}
+.fr {
+	float: right;
+}
+.w {
+	width: 970px;
+	margin: auto;
+}
+.clearfix {
+	zoom:1;
+}
